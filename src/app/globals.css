@@ -45,3 +45,18 @@ body {
 #top-menu .dropdown-toggle {
   font-size: 20px;
 }
+@media (max-width: 1000px) {
+  .collapse.show {
+  border: 5px solid var(--color-menu_border);
+  } 
+  #bottom-menu {
+    font-size: 10px;
+  }
+}
+.navbar-collapse {
+  background-color: var(--color-menu);
+  padding-left: 10px;
+}
+.navbar-toggler {
+  background-color: var(--color-menu_border) !important;
+}
