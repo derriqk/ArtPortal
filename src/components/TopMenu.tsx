@@ -3,10 +3,13 @@
 'use client';
 
 import { useSession } from 'next-auth/react';
+import { usePathname } from 'next/navigation';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'react-bootstrap-icons';
 
 const NavBar: React.FC = () => {
+  const pathName = usePathname();
+  const isOptionPage = pathName === '/options';
   const { data: session } = useSession();
   const currentUser = session?.user?.email;
   return (
@@ -16,10 +19,11 @@ const NavBar: React.FC = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ml-auto justify-content-start">
-            <Navbar.Brand className="me-5 ms-3" href="/">View our Art</Navbar.Brand>
-            <Navbar.Brand className="me-5 ms-3" href="/">Submit a Request</Navbar.Brand>
+            <Navbar.Brand className="me-5" href="/">View our Art</Navbar.Brand>
+            { !isOptionPage
+            && (<Navbar.Brand className="me-5" href="/options">Interested in Buying?</Navbar.Brand>) }
           </Nav>
-          <Nav className="ms-5 me-5">
+          <Nav className="ms-auto me-5">
             <Navbar.Brand href="/">About Us</Navbar.Brand>
           </Nav>
           <Nav className="justify-content-end">
