@@ -8,7 +8,7 @@ const BottomMenu = () => (
         <br />
         <strong>To showcase our work and our passion of both art and software engineering</strong>
         <br />
-        <strong>Created by Jova and Derrick</strong>
+        <strong>Created by Jova and Derrick, gay sex</strong>
         <br />
       </Col>
     </Container>
