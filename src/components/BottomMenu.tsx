@@ -1,7 +1,7 @@
 import { Col, Container } from 'react-bootstrap';
 
 const BottomMenu = () => (
-  <footer id="bottom-menu" className="mt-auto py-3 bg-light">
+  <footer id="bottom-menu" className="mt-auto py-3">
     <Container>
       <Col className="text-center">
         <strong>Project Collaboration</strong>

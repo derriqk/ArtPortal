@@ -10,19 +10,19 @@ const NavBar: React.FC = () => {
   const { data: session } = useSession();
   const currentUser = session?.user?.email;
   return (
-    <Navbar id="top-menu" bg="light" expand="lg">
+    <Navbar id="top-menu" className="menutext" expand="lg">
       <Container>
         <Navbar.Brand href="/" className="me-5">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ml-auto justify-content-start">
-            <Navbar.Brand className="me-5" href="/">View our Art</Navbar.Brand>
-            <Navbar.Brand href="/">Submit a Request</Navbar.Brand>
+            <Navbar.Brand className="me-5 ms-3" href="/">View our Art</Navbar.Brand>
+            <Navbar.Brand className="me-5 ms-3" href="/">Submit a Request</Navbar.Brand>
           </Nav>
-          <Nav className="me-4">
+          <Nav className="ms-5 me-5">
             <Navbar.Brand href="/">About Us</Navbar.Brand>
           </Nav>
-          <Nav className="ml-auto justify-content-end">
+          <Nav className="justify-content-end">
             {session ? (
               <NavDropdown id="login-dropdown" title={currentUser}>
                 <NavDropdown.Item id="login-dropdown-sign-out" href="/api/auth/signout">
