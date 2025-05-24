@@ -12,3 +12,14 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+#bottom-menu {
+  border-top: 5px solid rgb(54, 52, 64);
+  background-color: rgb(81, 79, 91);
+}
+
+#top-menu {
+  height: 70px;
+  border-bottom: 5px solid rgb(54, 52, 64);
+  background-color: rgb(81, 79, 91);
+}
