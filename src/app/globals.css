@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
-  --color-menu: #20222a;
-  --color-menu_border: #5d5d5d;
+  --color-menu: #695191;
+  --color-menu_border: #ebebeb;
   --bg_url: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cslaBD8OX-IE-ByPTjs0gV83bYb7byA_DQ&s");
   --font-style1: 'Roboto Slab';
 }
@@ -44,6 +44,65 @@ body {
 }
 #top-menu .dropdown-toggle {
   font-size: 20px;
+
+}
+
+
+.image-text-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#left-images{
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(78, 30, 30);
+}
+
+.below-image-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.right-side {
+  flex: 1;
+  font-family: var(--font-style1);
+  color: white;
+}
+
+.image-text-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#left-images{
+  width: 250px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(78, 30, 30);
+}
+
+.below-image-text {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.right-side {
+  flex: 1;
+  font-family: var(--font-style1);
+  color: white;
+
 }
 @media (max-width: 1000px) {
   .collapse.show {
@@ -72,4 +131,5 @@ body {
 }
 .navbar-toggler {
   background-color: var(--color-menu_border) !important;
+
 }
