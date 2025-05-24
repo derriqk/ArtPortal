@@ -48,6 +48,7 @@ body {
 @media (max-width: 1000px) {
   .collapse.show {
   border: 5px solid var(--color-menu_border);
+  margin-top: 10px;
   } 
   #bottom-menu {
     font-size: 10px;
