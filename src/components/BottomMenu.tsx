@@ -6,9 +6,9 @@ const BottomMenu = () => (
       <Col className="text-center">
         <strong>Project Collaboration</strong>
         <br />
-        <strong>To showcase our work and our passion of both art and software engineering,keep going</strong>
+        <strong>To showcase our work and our passion of both art and software engineering</strong>
         <br />
-        <strong>Created by Jova and Derrick, sex gay</strong>
+        <strong>Created by Jova' and Derrick </strong>
         <br />
       </Col>
     </Container>
