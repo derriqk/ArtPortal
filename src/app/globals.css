@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
-  --color-menu: #495079;
-  --color-menu_border: #07070a;
+  --color-menu: #20222a;
+  --color-menu_border: #5d5d5d;
+  --bg_url: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6cslaBD8OX-IE-ByPTjs0gV83bYb7byA_DQ&s");
+  --font-style1: 'Roboto Slab';
 }
 
 html,
@@ -10,7 +14,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/54ecfc32e4b0866fef096797/1631035242033-UNF08042GIQECBB1U6ZQ/Instagram-9+%281%29.JPG");
+  background-image: var(--bg_url);
   background-size: cover;
   background-position: center;
 }
@@ -24,12 +28,14 @@ body {
 #bottom-menu {
   border-top: 5px solid var(--color-menu_border);
   background-color: var(--color-menu);
+  font-family: var(--font-style1);
 }
 
 #top-menu {
   height: 70px;
   border-bottom: 5px solid var(--color-menu_border);
   background-color: var(--color-menu);
+  font-family: var(--font-style1);
 }
 
 #top-menu .navbar-brand, #top-menu .dropdown-toggle,
