@@ -54,6 +54,18 @@ body {
     font-size: 10px;
   }
 }
+
+.dropdown-menu.show {
+  background-color: var(--color-menu);
+  border: .5px solid rgb(213, 213, 213);
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.dropdown-item {
+  color: white !important;
+}
+
+
 .navbar-collapse {
   background-color: var(--color-menu);
   padding-left: 10px;
