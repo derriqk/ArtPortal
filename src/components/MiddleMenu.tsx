@@ -1,5 +1,4 @@
-import { Container } from 'react-bootstrap';
-import Image from 'next/image';
+import { Container, Image } from 'react-bootstrap';
 
 const MiddleMenu = () => (
   <Container id="middle-menu" className="py-3">
