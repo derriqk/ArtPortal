@@ -5,9 +5,36 @@ import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 const Options = () => (
   <>
     <Container className="optionspage text-center mt-5">
-      <h4> View our various options:</h4>
+      <h2> View our various options:</h2>
     </Container>
-    <Container className="optionspage text-center my-5">
+    <Container className="optionspage text-center mt-5">
+      <h4> Purchase Existing Art:</h4>
+    </Container>
+    <Container className="text-center">
+      <Row className="align-items-center justify-content-center mb-3">
+        <Col xs={12} sm={6} md={4} className="mb-3 optioncard">
+          <Card>
+            <Card.Body>
+              <Card.Title>Purchase Existing Art</Card.Title>
+              <Image src="/" alt="Simple Sketch" className="img-fluid" />
+            </Card.Body>
+            <Card.Footer className="text-start">
+              <small>View our existing pieces under &quot;View our Art&quot;</small>
+              <br />
+              <small>Estimated Cost: TBD</small>
+              <br />
+              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+                Request
+              </a>
+            </Card.Footer>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+    <Container className="optionspage text-center mt-5">
+      <h4>Request Commissions:</h4>
+    </Container>
+    <Container className="optionspage text-center">
       <Row className="align-items-center justify-content-start mb-3">
         <Col xs={12} sm={6} md={4} className="mb-3 optioncard">
           <Card>
