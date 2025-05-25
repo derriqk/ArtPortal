@@ -137,8 +137,8 @@ body {
   font-family: var(--font-style1);
 }
 
-.optioncard .card.body {
-  height: 400px;
+.optioncard .card {
+  height: 500px;
 }
 #cardbutton {
   background-color: rgb(76, 58, 88);
