@@ -3,7 +3,7 @@
 import { Card, Col, Container, Image, Row } from 'react-bootstrap';
 
 const Options = () => (
-  <>
+  <main className="option_page">
     <Container className="optionspage text-center mt-5">
       <h2> View our various options:</h2>
     </Container>
@@ -157,7 +157,7 @@ const Options = () => (
         </Col>
       </Row>
     </Container>
-  </>
+  </main>
 );
 
 export default Options;
