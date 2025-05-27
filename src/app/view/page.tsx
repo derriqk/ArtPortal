@@ -11,43 +11,37 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
-        </Card.Body>
-      </Card>
-      <Card className="owned">
-        <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
     </Container>
@@ -58,43 +52,37 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
-        </Card.Body>
-      </Card>
-      <Card className="owned">
-        <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/aespa.png" alt="Aespa" className="img-fluid" />
+          <Image src="" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
     </Container>
