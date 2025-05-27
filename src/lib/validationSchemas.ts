@@ -14,3 +14,16 @@ export const EditStuffSchema = Yup.object({
   condition: Yup.string().oneOf(['excellent', 'good', 'fair', 'poor']).required(),
   owner: Yup.string().required(),
 });
+
+export const RequestSchema = Yup.object({
+  owner: Yup.string().required(),
+  description: Yup.string().required(),
+  type: Yup.string().required(),
+  status: Yup.string().required(),
+});
+
+export const PurchaseSchema = Yup.object({
+  title: Yup.string().required(),
+  owner: Yup.string().required(),
+  status: Yup.string().oneOf(['pending', 'in-progress', 'completed']).required(),
+});

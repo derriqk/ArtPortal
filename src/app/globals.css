@@ -193,5 +193,29 @@ body {
   scroll-behavior: smooth;
   scrollbar-width: thin;
   scrollbar-color: rgba(81, 48, 106, 0.5) transparent;
+}
 
+.requestbody {
+  width: auto;
+  height: auto;
+  margin-bottom: 10px;;
+}
+.requesttitle {
+  font-family: var(--font-style1);
+}
+.requestcard {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: var(--font-style1);
+}
+.submitrow {
+  height: 400px;
+}
+.requestfooter {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.reqbutton {
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+  color: white;
 }
