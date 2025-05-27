@@ -11,7 +11,7 @@ const Options = () => (
       <h4> Purchase Existing Art:</h4>
     </Container>
     <Container className="text-center">
-      <Row className="align-items-center justify-content-center mb-3">
+      <Row className="align-items-center justify-content-center mb-3 artRow">
         <Col xs={12} sm={6} md={4} className="mb-3 optioncard">
           <Card>
             <Card.Body>
@@ -32,10 +32,10 @@ const Options = () => (
       </Row>
     </Container>
     <Container className="optionspage text-center mt-5">
-      <h4>Request Commissions:</h4>
+      <h4>Request Commissions for 2D Art:</h4>
     </Container>
     <Container className="optionspage text-center">
-      <Row className="align-items-center justify-content-start mb-3">
+      <Row className="align-items-center justify-content-start mb-3 artRow">
         <Col xs={12} sm={6} md={4} className="mb-3 optioncard">
           <Card>
             <Card.Body>
@@ -121,6 +121,13 @@ const Options = () => (
             </Card.Footer>
           </Card>
         </Col>
+      </Row>
+    </Container>
+    <Container className="optionspage text-center mt-5">
+      <h4>Request Commissions for 3D Art:</h4>
+    </Container>
+    <Container className="text-center">
+      <Row className="align-items-center justify-content-center mb-3 artRow">
         <Col xs={12} sm={6} md={4} className="mb-3 optioncard">
           <Card>
             <Card.Body>
