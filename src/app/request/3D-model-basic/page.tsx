@@ -1,9 +1,7 @@
 import { getServerSession } from 'next-auth';
 import authOptions from '@/lib/authOptions';
 import { loggedInProtectedPage } from '@/lib/page-protection';
-import dynamic from 'next/dynamic';
-
-const RequestForm = dynamic(() => import('@/components/RequestForm'), { ssr: false });
+import RequestForm from '@/components/RequestForm';
 
 const Request = async () => {
   // Protect the page, only logged in users can access it.
