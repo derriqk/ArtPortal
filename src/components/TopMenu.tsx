@@ -4,7 +4,7 @@
 
 import { useSession } from 'next-auth/react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'react-bootstrap-icons';
+import { BagCheckFill, BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'react-bootstrap-icons';
 
 const NavBar: React.FC = () => {
   const { data: session } = useSession();
@@ -27,11 +27,18 @@ const NavBar: React.FC = () => {
               <NavDropdown id="login-dropdown" title={currentUser}>
                 <NavDropdown.Item id="login-dropdown-sign-out" href="/api/auth/signout">
                   <BoxArrowRight />
+                  {' '}
                   Sign Out
                 </NavDropdown.Item>
                 <NavDropdown.Item id="login-dropdown-change-password" href="/auth/change-password">
                   <Lock />
+                  {' '}
                   Change Password
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/your-purchases">
+                  <BagCheckFill />
+                  {' '}
+                  View Purchases
                 </NavDropdown.Item>
               </NavDropdown>
             ) : (
@@ -43,6 +50,10 @@ const NavBar: React.FC = () => {
                 <NavDropdown.Item id="login-dropdown-sign-up" href="/auth/signup">
                   <PersonPlusFill />
                   Sign up
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/your-purchases">
+                  <Lock />
+                  View Purchases
                 </NavDropdown.Item>
               </NavDropdown>
             )}
