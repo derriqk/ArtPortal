@@ -40,7 +40,7 @@ export async function requestArt(request: { owner: string; type: string; descrip
       status: request.status,
     },
   });
-  redirect('/');
+  redirect('/options');
 }
 
 export async function purchaseArt(purchase: { title: string; owner: string; status: string }) {
@@ -51,7 +51,7 @@ export async function purchaseArt(purchase: { title: string; owner: string; stat
       status: purchase.status,
     },
   });
-  redirect('/');
+  redirect('/options');
 }
 
 /**

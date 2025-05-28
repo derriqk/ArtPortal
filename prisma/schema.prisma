@@ -54,7 +54,7 @@ model Request {
 
 model Purchase {
   id        Int       @id @default(autoincrement())
-  title      String
+  title     String
   status    String @default("pending")
   owner     String
 }

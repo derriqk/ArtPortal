@@ -25,5 +25,5 @@ export const RequestSchema = Yup.object({
 export const PurchaseSchema = Yup.object({
   title: Yup.string().required(),
   owner: Yup.string().required(),
-  status: Yup.string().oneOf(['pending', 'in-progress', 'completed']).required(),
+  status: Yup.string().required(),
 });
