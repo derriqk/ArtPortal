@@ -54,6 +54,19 @@ export async function purchaseArt(purchase: { title: string; owner: string; stat
   redirect('/options');
 }
 
+export async function deletePurchase(id: number) {
+  await prisma.purchase.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+export async function deleteRequest(id: number) {
+  await prisma.request.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+
 /**
  * Edits an existing stuff in the database.
  * @param stuff, an object with the following properties: id, name, quantity, owner, condition.
