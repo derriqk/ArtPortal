@@ -1,9 +1,7 @@
 import { getServerSession } from 'next-auth';
 import authOptions from '@/lib/authOptions';
 import { loggedInProtectedPage } from '@/lib/page-protection';
-import dynamic from 'next/dynamic';
-
-const PurchaseForm = dynamic(() => import('@/components/PurchaseForm'), { ssr: false });
+import PurchaseForm from '@/components/PurchaseForm';
 
 const Purchase = async () => {
   // Protect the page, only logged in users can access it.
