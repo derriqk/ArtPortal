@@ -13,7 +13,7 @@ datasource db {
   // for local development
   // url      = env("DATABASE_URL")
   // for Vercel
-  url       = env("POSTGRES_PRISMA_URL")
+  url       = env("POSTGRES_URL_NON_POOLING")
   directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
@@ -41,5 +41,20 @@ model Stuff {
   name      String
   quantity  Int
   condition Condition @default(good)
+  owner     String
+}
+
+model Request {
+  id        Int       @id @default(autoincrement())
+  type     String @default("unspecified")
+  description String
+  status    String @default("pending")
+  owner     String
+}
+
+model Purchase {
+  id        Int       @id @default(autoincrement())
+  title     String
+  status    String @default("pending")
   owner     String
 }

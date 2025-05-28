@@ -31,6 +31,42 @@ export async function addStuff(stuff: { name: string; quantity: number; owner: s
   redirect('/list');
 }
 
+export async function requestArt(request: { owner: string; type: string; description: string; status: string }) {
+  await prisma.request.create({
+    data: {
+      owner: request.owner,
+      type: request.type,
+      description: request.description,
+      status: request.status,
+    },
+  });
+  redirect('/options');
+}
+
+export async function purchaseArt(purchase: { title: string; owner: string; status: string }) {
+  await prisma.purchase.create({
+    data: {
+      title: purchase.title,
+      owner: purchase.owner,
+      status: purchase.status,
+    },
+  });
+  redirect('/options');
+}
+
+export async function deletePurchase(id: number) {
+  await prisma.purchase.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+export async function deleteRequest(id: number) {
+  await prisma.request.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+
 /**
  * Edits an existing stuff in the database.
  * @param stuff, an object with the following properties: id, name, quantity, owner, condition.
