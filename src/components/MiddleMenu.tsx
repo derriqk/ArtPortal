@@ -7,7 +7,7 @@ const MiddleMenu = () => (
         <h2> Featured Art </h2>
         <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
         <div className="below-image-text">
-          <p>Poster design for Aespa's "WHILPASH" album</p>
+          <p>Poster design for Aespas WHIPLASH album</p>
         </div>
         <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
         <div className="below-image-text">
