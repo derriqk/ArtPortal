@@ -4,7 +4,7 @@ const MiddleMenu = () => (
   <Container id="middle-menu" className="py-3" fluid>
     <div className="image-text-wrapper">
       <div className="left-side">
-        <strong> Featured Art </strong>
+        <h2> Featured Art </h2>
         <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
         <div className="below-image-text">
           <p>Poster design for Aespa's "WHILPASH" album</p>
@@ -22,8 +22,17 @@ const MiddleMenu = () => (
 
       <div className="right-side">
         <div className="right-info-box">
-          <strong> Testing </strong>
-          <p> details</p>
+          <div className="box-text">
+            <h2> Welcome to Art Portal </h2>
+            <div className="small-text">
+              <p> a showcase of our creations </p>
+              <p> made by Derrick and Jova</p>
+            </div>
+          </div>
+          <div className="box-images">
+            <Image className="box-image" src="/images/lilipads.png" alt="Lilipads" />
+            <Image className="box-image" src="/images/lilipadsother.png" alt="Lilipadss" />
+          </div>
         </div>
       </div>
     </div>

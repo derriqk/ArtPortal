@@ -174,33 +174,35 @@ body {
   background-color: rgba(82, 79, 84, 0.19);
   padding-top: 10px;
 }
-.view-header {
-  font-family: var(--font-style1);
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.25);
-  padding-bottom: 20px;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.owned {
-  box-shadow: 0 1px 8px 0 rgba(63, 0, 91, 0.2), 0 6px 20px 0 rgba(37, 22, 203, 0.19);
-  flex: 0 0 auto;
-  width: 400px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.artworks {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding-bottom: 10px;
-  min-height: 600px;
-  gap: 10px;
-  scroll-behavior: smooth;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(81, 48, 106, 0.5) transparent;
 
+.right-info-box {
+  background-color: rgba(202, 202, 202, 0.19);
+  border-radius: 5px;
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-images{
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.box-image{
+  width: 50%;
+  height: 100%;
+  display: block;
+}
+
+.box-text{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  font-family: Impact, sans-serif;
+  color: rgb(0, 0, 0);
+  font-stretch: expanded;
 }
