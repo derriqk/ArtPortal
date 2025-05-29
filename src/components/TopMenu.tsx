@@ -9,6 +9,8 @@ import { BagCheckFill, BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'r
 const NavBar: React.FC = () => {
   const { data: session } = useSession();
   const currentUser = session?.user?.email;
+  const admin1 = 'derrickq@hawaii.edu';
+  const admin2 = 'jkind889@gmail.com';
   return (
     <Navbar id="top-menu" className="menutext" expand="lg">
       <Container>
@@ -19,7 +21,12 @@ const NavBar: React.FC = () => {
             <Navbar.Brand className="me-5" href="/view">View our Art</Navbar.Brand>
             <Navbar.Brand className="me-5" href="/options">Interested in Buying?</Navbar.Brand>
           </Nav>
-          <Nav className="ms-auto me-5">
+          {((admin1 === currentUser) || (admin2 === currentUser)) && (
+            <Nav className="ms-auto justify-content-end">
+              <Navbar.Brand href="/admin-view">Admin View</Navbar.Brand>
+            </Nav>
+          )}
+          <Nav className="ms-4 me-5">
             <Navbar.Brand href="/">About Us</Navbar.Brand>
           </Nav>
           <Nav className="justify-content-end">
