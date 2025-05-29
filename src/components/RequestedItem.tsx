@@ -8,7 +8,7 @@ import swal from 'sweetalert';
 /* Renders a single row in the List Stuff table. See list/page.tsx. */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const RequestItem = ({ type, description, status, id, owner }: Request) => (
-  <Card className="mt-2">
+  <Card>
     <Card.Body>
       <Card.Title>
         Art Type:

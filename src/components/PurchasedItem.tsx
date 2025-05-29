@@ -8,7 +8,7 @@ import swal from 'sweetalert';
 /* Renders a single row in the List Stuff table. See list/page.tsx. */
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const PurchasedItem = ({ title, status, id, owner }: Purchase) => (
-  <Card className="mt-2">
+  <Card>
     <Card.Body>
       <Card.Title>{title}</Card.Title>
       <Card.Text>
