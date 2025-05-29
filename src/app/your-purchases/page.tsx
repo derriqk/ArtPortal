@@ -30,24 +30,24 @@ const YourPurchases = async () => {
         <Container>
           <h3 className="mt-3">Existing Artwork Purchased:</h3>
           <hr />
-          <Row className="items-list-row">
-            {purchases.map((item) => (
-              <Col key={item.id} xs={12} md={6} lg={4}>
+          {purchases.map((item) => (
+            <Row className="items-list-row">
+              <Col key={item.id}>
                 <PurchasedItem {...item} />
               </Col>
-            ))}
-          </Row>
+            </Row>
+          ))}
         </Container>
         <Container className="py-3 requested-container">
           <h3 className="mt-3">Commissions Requested:</h3>
           <hr />
-          <Row className="items-list-row">
-            {requested.map((item) => (
-              <Col xs={12} md={6} lg={4}>
-                <RequestedItem key={item.id} {...item} />
+          {requested.map((item) => (
+            <Row className="items-list-row">
+              <Col key={item.id}>
+                <RequestedItem {...item} />
               </Col>
-            ))}
-          </Row>
+            </Row>
+          ))}
         </Container>
       </Container>
     </main>
