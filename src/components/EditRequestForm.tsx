@@ -29,7 +29,7 @@ const EditRequestForm = ({ request }: { request: Request }) => {
   return (
     <Container className="py-3">
       <Row className="justify-content-center">
-        <Col>
+        <Col xs={12} md={8} lg={6}>
           <Col className="text-center">
             <h2 className="statusheader">
               Edit Status for:
