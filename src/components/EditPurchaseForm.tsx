@@ -29,7 +29,7 @@ const EditPurchaseForm = ({ purchase }: { purchase: Purchase }) => {
   return (
     <Container className="py-3">
       <Row className="justify-content-center">
-        <Col xs={5}>
+        <Col>
           <Col className="text-center">
             <h2 className="statusheader">
               Edit Status for:
