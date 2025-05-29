@@ -1,6 +1,6 @@
 'use server';
 
-import { Stuff, Condition } from '@prisma/client';
+import { Stuff, Condition, Purchase, Request } from '@prisma/client';
 import { hash } from 'bcrypt';
 import { redirect } from 'next/navigation';
 import { prisma } from './prisma';
@@ -31,6 +31,42 @@ export async function addStuff(stuff: { name: string; quantity: number; owner: s
   redirect('/list');
 }
 
+export async function requestArt(request: { owner: string; type: string; description: string; status: string }) {
+  await prisma.request.create({
+    data: {
+      owner: request.owner,
+      type: request.type,
+      description: request.description,
+      status: request.status,
+    },
+  });
+  redirect('/options');
+}
+
+export async function purchaseArt(purchase: { title: string; owner: string; status: string }) {
+  await prisma.purchase.create({
+    data: {
+      title: purchase.title,
+      owner: purchase.owner,
+      status: purchase.status,
+    },
+  });
+  redirect('/options');
+}
+
+export async function deletePurchase(id: number) {
+  await prisma.purchase.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+export async function deleteRequest(id: number) {
+  await prisma.request.delete({
+    where: { id },
+  });
+  redirect('/your-purchases');
+}
+
 /**
  * Edits an existing stuff in the database.
  * @param stuff, an object with the following properties: id, name, quantity, owner, condition.
@@ -48,6 +84,30 @@ export async function editStuff(stuff: Stuff) {
   });
   // After updating, redirect to the list page
   redirect('/list');
+}
+
+export async function editStatusPurchase(purchase: Purchase) {
+  await prisma.purchase.update({
+    where: { id: purchase.id },
+    data: {
+      status: purchase.status,
+      title: purchase.title,
+      owner: purchase.owner,
+    },
+  });
+  redirect('/admin-view');
+}
+export async function editStatusRequest(request: Request) {
+  await prisma.request.update({
+    where: { id: request.id },
+    data: {
+      status: request.status,
+      type: request.type,
+      description: request.description,
+      owner: request.owner,
+    },
+  });
+  redirect('/admin-view');
 }
 
 /**

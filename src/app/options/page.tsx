@@ -23,8 +23,8 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
-                Request
+              <a id="cardbutton" href="/purchase" className="btn mt-2">
+                Purchase
               </a>
             </Card.Footer>
           </Card>
@@ -47,7 +47,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/simple-sketch" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -64,7 +64,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/line-art" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -81,7 +81,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/flat-full-color" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -98,7 +98,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/rendered-color" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -115,7 +115,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/full-poster" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -139,7 +139,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/3D-model-basic" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
@@ -156,7 +156,7 @@ const Options = () => (
               <br />
               <small>Estimated Cost: TBD</small>
               <br />
-              <a id="cardbutton" href="/options/option1" className="btn mt-2">
+              <a id="cardbutton" href="/request/3D-model-complete" className="btn mt-2">
                 Request
               </a>
             </Card.Footer>
