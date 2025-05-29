@@ -3,8 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { prisma } from '@/lib/prisma';
 import { loggedInProtectedPage } from '@/lib/page-protection';
 import authOptions from '@/lib/authOptions';
-import PurchasedItem from '@/components/PurchasedItem';
-import RequestedItem from '@/components/RequestedItem';
+import RequestedItemEdit from '@/components/RequestedItemEdit';
+import PurchasedItemEdit from '@/components/PurchasedItemEdit';
 
 const YourPurchases = async () => {
   const session = await getServerSession(authOptions);
@@ -13,10 +13,8 @@ const YourPurchases = async () => {
       user: { email: string; id: string; randomKey: string };
     } | null,
   );
-  const owner = (session && session.user && session.user.email) || '';
   const purchases = await prisma.purchase.findMany({
     where: {
-      owner,
     },
     orderBy: {
       id: 'desc',
@@ -24,7 +22,6 @@ const YourPurchases = async () => {
   });
   const requested = await prisma.request.findMany({
     where: {
-      owner,
     },
     orderBy: {
       id: 'desc',
@@ -39,7 +36,7 @@ const YourPurchases = async () => {
           {purchases.map((item) => (
             <Row className="items-list-row">
               <Col key={item.id}>
-                <PurchasedItem {...item} />
+                <PurchasedItemEdit {...item} />
               </Col>
             </Row>
           ))}
@@ -50,7 +47,7 @@ const YourPurchases = async () => {
           {requested.map((item) => (
             <Row className="items-list-row">
               <Col key={item.id}>
-                <RequestedItem {...item} />
+                <RequestedItemEdit {...item} />
               </Col>
             </Row>
           ))}

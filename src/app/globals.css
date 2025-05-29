@@ -273,3 +273,11 @@ body {
 .owned-items {
   font-family: var(--font-style1);
 }
+.statusheader {
+  font-family: var(--font-style1);
+}
+.editbutton {
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+  color: white;
+}

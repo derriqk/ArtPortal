@@ -1,6 +1,6 @@
 'use server';
 
-import { Stuff, Condition } from '@prisma/client';
+import { Stuff, Condition, Purchase, Request } from '@prisma/client';
 import { hash } from 'bcrypt';
 import { redirect } from 'next/navigation';
 import { prisma } from './prisma';
@@ -84,6 +84,30 @@ export async function editStuff(stuff: Stuff) {
   });
   // After updating, redirect to the list page
   redirect('/list');
+}
+
+export async function editStatusPurchase(purchase: Purchase) {
+  await prisma.purchase.update({
+    where: { id: purchase.id },
+    data: {
+      status: purchase.status,
+      title: purchase.title,
+      owner: purchase.owner,
+    },
+  });
+  redirect('/admin-view');
+}
+export async function editStatusRequest(request: Request) {
+  await prisma.request.update({
+    where: { id: request.id },
+    data: {
+      status: request.status,
+      type: request.type,
+      description: request.description,
+      owner: request.owner,
+    },
+  });
+  redirect('/admin-view');
 }
 
 /**

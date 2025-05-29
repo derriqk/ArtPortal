@@ -21,8 +21,21 @@ export const RequestSchema = Yup.object({
   type: Yup.string().required(),
   status: Yup.string().required(),
 });
+export const EditRequestSchema = Yup.object({
+  id: Yup.number().required(),
+  owner: Yup.string().required(),
+  description: Yup.string().required(),
+  type: Yup.string().required(),
+  status: Yup.string().required(),
+});
 
 export const PurchaseSchema = Yup.object({
+  title: Yup.string().required(),
+  owner: Yup.string().required(),
+  status: Yup.string().required(),
+});
+export const EditPurchaseSchema = Yup.object({
+  id: Yup.number().required(),
   title: Yup.string().required(),
   owner: Yup.string().required(),
   status: Yup.string().required(),
