@@ -9,9 +9,9 @@ const MiddleMenu = () => (
         <div className="below-image-text">
           <p>Poster design for Aespas WHIPLASH album</p>
         </div>
-        <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
+        <Image id="left-images" src="/images/image.jpeg" alt="Aespa" />
         <div className="below-image-text">
-          <p>Testing123</p>
+          <p>Colored artwork of 'Nempohila menziesii' </p>
         </div>
         <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
         <div className="below-image-text">
@@ -23,11 +23,14 @@ const MiddleMenu = () => (
       <div className="right-side">
         <div className="right-info-box">
           <div className="box-text">
-            <h2> Welcome to Art Portal </h2>
-            <div className="small-text">
-              <p> a showcase of our creations </p>
-              <p> made by Derrick and Jova</p>
-            </div>
+            <h1> Welcome to Art Portal </h1>
+          </div>
+          <div className="small-text">
+            <p>
+              This is a project to showcase our work and our passion of both art and software engineering.
+              <br />
+              We hope you enjoy the art we have created and the software we have built.
+            </p>
           </div>
           <div className="box-images">
             <Image className="box-image" src="/images/lilipads.png" alt="Lilipads" />
