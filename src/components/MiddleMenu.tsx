@@ -11,7 +11,7 @@ const MiddleMenu = () => (
         </div>
         <Image id="left-images" src="/images/image.jpeg" alt="Aespa" />
         <div className="below-image-text">
-          <p>Colored artwork of 'Nempohila menziesii' </p>
+          <p>Colored artwork of Nempohila menziesii </p>
         </div>
         <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
         <div className="below-image-text">
