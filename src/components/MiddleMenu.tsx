@@ -8,19 +8,19 @@ const MiddleMenu = () => (
         <Col xs={12} sm={6} md={3} className="mb-3 features-col">
           <h1>Features</h1>
           <hr />
-          <h4>Poster</h4>
+          <h4>Poster by Jova</h4>
           <Image
             src="/images/aespa.png"
             alt="Art Hub Logo"
             className="img-fluid mb-3"
           />
-          <h4>Poster</h4>
+          <h4>Poster by Jova</h4>
           <Image
             src="/images/aespa.png"
             alt="Art Hub Logo"
             className="img-fluid mb-3"
           />
-          <h4>Poster</h4>
+          <h4>Poster by Jova</h4>
           <Image
             src="/images/aespa.png"
             alt="Art Hub Logo"
