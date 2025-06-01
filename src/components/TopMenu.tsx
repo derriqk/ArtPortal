@@ -4,11 +4,13 @@
 
 import { useSession } from 'next-auth/react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'react-bootstrap-icons';
+import { BagCheckFill, BoxArrowRight, Lock, PersonFill, PersonPlusFill } from 'react-bootstrap-icons';
 
 const NavBar: React.FC = () => {
   const { data: session } = useSession();
   const currentUser = session?.user?.email;
+  const admin1 = 'derrickq@hawaii.edu';
+  const admin2 = 'jkind889@gmail.com';
   return (
     <Navbar id="top-menu" className="menutext" expand="lg">
       <Container>
@@ -19,7 +21,12 @@ const NavBar: React.FC = () => {
             <Navbar.Brand className="me-5" href="/view">View our Art</Navbar.Brand>
             <Navbar.Brand className="me-5" href="/options">Interested in Buying?</Navbar.Brand>
           </Nav>
-          <Nav className="ms-auto me-5">
+          {((admin1 === currentUser) || (admin2 === currentUser)) && (
+            <Nav className="ms-auto justify-content-end">
+              <Navbar.Brand href="/admin-view">Admin View</Navbar.Brand>
+            </Nav>
+          )}
+          <Nav className="ms-4 me-5">
             <Navbar.Brand href="/">About Us</Navbar.Brand>
           </Nav>
           <Nav className="justify-content-end">
@@ -27,11 +34,18 @@ const NavBar: React.FC = () => {
               <NavDropdown id="login-dropdown" title={currentUser}>
                 <NavDropdown.Item id="login-dropdown-sign-out" href="/api/auth/signout">
                   <BoxArrowRight />
+                  {' '}
                   Sign Out
                 </NavDropdown.Item>
                 <NavDropdown.Item id="login-dropdown-change-password" href="/auth/change-password">
                   <Lock />
+                  {' '}
                   Change Password
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/your-purchases">
+                  <BagCheckFill />
+                  {' '}
+                  View Purchases
                 </NavDropdown.Item>
               </NavDropdown>
             ) : (
@@ -43,6 +57,10 @@ const NavBar: React.FC = () => {
                 <NavDropdown.Item id="login-dropdown-sign-up" href="/auth/signup">
                   <PersonPlusFill />
                   Sign up
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/your-purchases">
+                  <Lock />
+                  View Purchases
                 </NavDropdown.Item>
               </NavDropdown>
             )}

@@ -212,31 +212,79 @@ body {
   font-family: Impact, sans-serif;
   color: rgb(0, 0, 0);
   font-stretch: expanded;
-  width: auto;
 }
-
-.box-text h1 {
-  font-size: 4vw;
-  margin: 0;
+.view-header {
+  font-family: var(--font-style1);
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-.small-text{
-  text-align: center;
+.owned {
+  box-shadow: 0 1px 8px 0 rgba(63, 0, 91, 0.2), 0 6px 20px 0 rgba(37, 22, 203, 0.19);
+  flex: 0 0 auto;
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.artworks {
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(0, 0, 0);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+  min-height: 600px;
+  gap: 10px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(81, 48, 106, 0.5) transparent;
+}
+
+.requestbody {
   width: auto;
- 
+  height: auto;
+  margin-bottom: 10px;;
+}
+.requesttitle {
+  font-family: var(--font-style1);
+}
+.requestcard {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: var(--font-style1);
+}
+.submitrow {
+  height: 400px;
+}
+.requestfooter {
+  margin-top: 5px;
+}
+.reqbutton {
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+  color: white;
 }
 
-.small-text p {
-  font-size: 1.5vw;
-  margin: 0;
-  max-width: 60vw;
-  font-family: 'Times New Roman', Times, serif;
+.items-list-row {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding-bottom: 10px;;
+  margin-bottom: 10px;
 }
-
-
+.cancelbutton {
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+  color: white;
+}
+.owned-items {
+  font-family: var(--font-style1);
+}
+.statusheader {
+  font-family: var(--font-style1);
+}
+.editbutton {
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+  color: white;
+}

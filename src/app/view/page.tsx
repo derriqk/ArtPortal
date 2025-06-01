@@ -46,7 +46,7 @@ const View = () => (
       </Card>
     </Container>
     <Container className="mt-5 view-header">
-      Derricks&apos;s Creations:
+      Derrick&apos;s Creations:
     </Container>
     <Container className="mt-3 mb-5 artworks">
       <Card className="owned">
