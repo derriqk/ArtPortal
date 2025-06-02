@@ -10,14 +10,14 @@ const View = () => (
     <Container className="mt-3 artworks">
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Card.Title>&quot;Whiplash&quot;- Aespa</Card.Title>
+          <Image src="/images/aespa.png" alt="IMG HERE" className="img-fluid mt-5" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid w-32" />
         </Card.Body>
       </Card>
       <Card className="owned">
