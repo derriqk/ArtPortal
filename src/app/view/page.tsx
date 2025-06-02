@@ -11,7 +11,16 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>&quot;Whiplash&quot;- Aespa</Card.Title>
-          <Image src="/images/aespa.png" alt="IMG HERE" className="img-fluid mt-5" />
+          <Image src="/images/aespa.png" alt="IMG HERE" className="img-fluid mt-5" useMap="#testingmap" />
+          <map name="testingmap">
+            <area
+              shape="rect"
+              coords="1,0,1669,1234"
+              href="https://www.youtube.com/watch?v=LmvZqZg8Owg"
+              alt="Test"
+              target="_blank"
+            />
+          </map>
         </Card.Body>
       </Card>
       <Card className="owned">
@@ -23,25 +32,31 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Image src="/images/bocchi.png" alt="IMG HERE" className="img-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Image src="/images/koifish.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Image src="/images/ssera.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
-          <Image src="" alt="IMG HERE" className="img-fluid" />
+          <Image src="/images/solov2-Recovered.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
+        </Card.Body>
+      </Card>
+      <Card className="owned">
+        <Card.Body>
+          <Card.Title>TITLE HERE</Card.Title>
+          <Image src="/images/kat.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
         </Card.Body>
       </Card>
     </Container>
