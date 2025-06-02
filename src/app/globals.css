@@ -174,7 +174,11 @@ body {
   border-width: 2px;
   border-style: solid;
 }
-
+.card .vertical-fluid{
+  width: 350px;
+  height: auto;
+  margin-left: 10px;
+}
 .artRow {
   background-color: rgba(82, 79, 84, 0.19);
   padding-top: 10px;

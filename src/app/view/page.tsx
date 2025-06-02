@@ -16,8 +16,8 @@ const View = () => (
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
-          <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid w-32" />
+          <Card.Title>&quot;This is How Tomorrow Moves&quot;- Beabadoobee</Card.Title>
+          <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
         </Card.Body>
       </Card>
       <Card className="owned">
