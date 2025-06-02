@@ -21,7 +21,7 @@ export default function RootLayout({
   const classString = `${inter.className} wrapper`;
   return (
     <html lang="en">
-      <body className={classString}>
+      <body className={classString} id="homepage">
         <Providers>
           <TopMenu />
           {children}

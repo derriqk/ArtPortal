@@ -1,42 +1,83 @@
-import { Container, Image } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import { EnvelopePaperFill, Github, Instagram, Linkedin, Reddit } from 'react-bootstrap-icons';
 
 const MiddleMenu = () => (
-  <Container id="middle-menu" className="py-3" fluid>
-    <div className="image-text-wrapper">
-      <div className="left-side">
-        <h2> Featured Art </h2>
-        <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
-        <div className="below-image-text">
-          <p>Poster design for Aespas WHIPLASH album</p>
-        </div>
-        <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
-        <div className="below-image-text">
-          <p>Testing123</p>
-        </div>
-        <Image id="left-images" src="/images/aespa.png" alt="Aespa" />
-        <div className="below-image-text">
-          <p>Testing123</p>
-        </div>
-      </div>
-      <div className="vl" />
-
-      <div className="right-side">
-        <div className="right-info-box">
-          <div className="box-text">
-            <h2> Welcome to Art Portal </h2>
-            <div className="small-text">
-              <p> a showcase of our creations </p>
-              <p> made by Derrick and Jova</p>
-            </div>
-          </div>
-          <div className="box-images">
-            <Image className="box-image" src="/images/lilipads.png" alt="Lilipads" />
-            <Image className="box-image" src="/images/lilipadsother.png" alt="Lilipadss" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </Container>
+  <>
+    <Container className="text-start mt-5">
+      <Row>
+        <Col xs={12} sm={6} md={3} className="mb-3 features-col">
+          <h1>Features</h1>
+          <hr />
+          <h4>Poster by Jova</h4>
+          <Image
+            src="/images/aespa.png"
+            alt="Art Hub Logo"
+            className="img-fluid mb-3"
+          />
+          <h4>Poster by Jova</h4>
+          <Image
+            src="/images/aespa.png"
+            alt="Art Hub Logo"
+            className="img-fluid mb-3"
+          />
+          <h4>Poster by Jova</h4>
+          <Image
+            src="/images/aespa.png"
+            alt="Art Hub Logo"
+            className="img-fluid mb-3"
+          />
+        </Col>
+        <Col xs={12} sm={6} md={9} className="mb-3 text-center right-col">
+          <Row className="align-items-center h-100">
+            <Col xs={12} id="texthomepage">
+              <h1>Art Hub</h1>
+              <hr />
+              <p>
+                Created to be a place of creation and inspiration.
+              </p>
+              <p>
+                A place to showcase and share our art.
+              </p>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+    </Container>
+    <Container className="bottom-home">
+      <Row className="justify-content-center text-start contactsrow ps-5">
+        <Col xs={12} sm={12} md={12} className="mb-4">
+          <h3>Jova&apos;s Contacts:</h3>
+          <a href="about" className="mx-2">
+            <Instagram width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <Linkedin width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <Github width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <Reddit width={30} height={30} />
+          </a>
+        </Col>
+        <Col xs={12} sm={12} md={12} className="mb-2">
+          <h3>Derrick&apos;s Contacts:</h3>
+          <a href="about" className="mx-2">
+            <Instagram width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <Linkedin width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <Github width={30} height={30} />
+          </a>
+          <a href="about" className="mx-2">
+            <EnvelopePaperFill width={30} height={30} />
+          </a>
+        </Col>
+      </Row>
+    </Container>
+  </>
 );
 
 export default MiddleMenu;
