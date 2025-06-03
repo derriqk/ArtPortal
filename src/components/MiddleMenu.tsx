@@ -43,7 +43,7 @@ const MiddleMenu = () => (
         </Col>
       </Row>
     </Container>
-    <Container className="bottom-home">
+    <Container className="bottom-home mb-3">
       <Row className="justify-content-center text-start contactsrow ps-5">
         <Col xs={12} sm={12} md={12} className="mb-4">
           <h3>Jova&apos;s Contacts:</h3>
