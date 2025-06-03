@@ -9,7 +9,7 @@ import Providers from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Art Hub',
+  title: 'Art Portal',
   description: 'Created to be place of creation and inspiration',
 };
 
