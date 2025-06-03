@@ -11,13 +11,13 @@ const MiddleMenu = () => (
           <h4>Poster by Jova</h4>
           <Image
             src="/images/aespa.png"
-            alt="Art Hub Logo"
+            alt="Aespa Poster"
             className="img-fluid mb-3"
           />
-          <h4>Poster by Jova</h4>
+          <h4>Color Rendition by Derrick</h4>
           <Image
-            src="/images/aespa.png"
-            alt="Art Hub Logo"
+            src="/images/derrickart/artportalhibiscus.png"
+            alt="Hibiscus Art"
             className="img-fluid mb-3"
           />
           <h4>Poster by Jova</h4>
