@@ -28,8 +28,8 @@ const SignIn = () => {
     <main>
       <Container>
         <Row className="justify-content-center">
-          <Col xs={5}>
-            <h1 className="text-center">Sign In</h1>
+          <Col className="passwordcol">
+            <h1 className="text-center mt-5">Sign In</h1>
             <Card>
               <Card.Body>
                 <Form method="post" onSubmit={handleSubmit}>
@@ -37,18 +37,18 @@ const SignIn = () => {
                     <Form.Label>Email</Form.Label>
                     <input name="email" type="text" className="form-control" />
                   </Form.Group>
-                  <Form.Group>
+                  <Form.Group className="mt-2">
                     <Form.Label>Password</Form.Label>
                     <input name="password" type="password" className="form-control" />
                   </Form.Group>
-                  <Button type="submit" className="mt-3">
-                    Signin
+                  <Button type="submit" className="mt-3 signbutton">
+                    Sign in
                   </Button>
                 </Form>
               </Card.Body>
               <Card.Footer>
                 Don&apos;t have an account?
-                <a href="/auth/signup">Sign up</a>
+                <a className="ms-2 signlink" href="/auth/signup">Sign up</a>
               </Card.Footer>
             </Card>
           </Col>

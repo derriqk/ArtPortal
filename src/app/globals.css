@@ -24,6 +24,28 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+.signbutton {
+  color: white !important;
+  background-color: var(--color-menu) !important;
+  border-color: white !important;
+}
+.signlink {
+  color: rgb(191, 148, 255) !important;
+  font-weight: bold;
+}
+.signfont {
+  font-family: var(--font-style1) !important;
+  margin-top: 4px;
+}
+.passwordcol {
+  max-width: 350px !important;
+  margin-bottom: 100px;
+  font-family: var(--font-style1);
+}
+.signcard {
+  max-width: 300px !important; 
+  background-color: #2b1c4c !important;
+}
 .option_page {
   background-image: var(--bg_url);
   background-size: cover;
