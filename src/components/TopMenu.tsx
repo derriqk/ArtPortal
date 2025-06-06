@@ -22,11 +22,11 @@ const NavBar: React.FC = () => {
             <Navbar.Brand className="me-5" href="/options">Interested in Buying?</Navbar.Brand>
           </Nav>
           {((admin1 === currentUser) || (admin2 === currentUser)) && (
-            <Nav className="ms-auto justify-content-end">
+            <Nav className="ms-auto me-5 justify-content-end">
               <Navbar.Brand href="/admin-view">Admin View</Navbar.Brand>
             </Nav>
           )}
-          <Nav className="ms-4 me-5">
+          <Nav className="me-5">
             <Navbar.Brand href="/">About Us</Navbar.Brand>
           </Nav>
           <Nav className="justify-content-end">
