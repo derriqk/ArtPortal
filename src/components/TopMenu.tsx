@@ -27,7 +27,7 @@ const NavBar: React.FC = () => {
             </Nav>
           )}
           <Nav className="me-5">
-            <Navbar.Brand href="/">About Us</Navbar.Brand>
+            <Navbar.Brand href="/about">About Us</Navbar.Brand>
           </Nav>
           <Nav className="justify-content-end">
             {session ? (
