@@ -365,3 +365,8 @@ body {
   border-color: white !important;
   color: white;
 }
+
+.head
+{
+  text-align: center;
+}
