@@ -1,4 +1,4 @@
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const aboutme = () => (
   <Container className="text-start mt-5" id="aboutme fluid">
