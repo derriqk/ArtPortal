@@ -99,6 +99,33 @@ const View = () => (
     <Container className="mt-3 mb-5 artworks">
       <Card className="owned">
         <Card.Body>
+          <Card.Title>White Lily</Card.Title>
+          <Image src="/images/derrickart/artportallily.png" alt="White Lily" className="img-fluid" />
+        </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
+      </Card>
+      <Card className="owned">
+        <Card.Body>
+          <Card.Title>Green Carnation</Card.Title>
+          <Image src="/images/derrickart/artportalcarnation.png" alt="Green Carnation" className="img-fluid" />
+        </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
+      </Card>
+      <Card className="owned">
+        <Card.Body>
+          <Card.Title>Halo Violet</Card.Title>
+          <Image src="/images/derrickart/artportalviolet.png" alt="Halo Violet" className="img-fluid" />
+        </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
+      </Card>
+      <Card className="owned">
+        <Card.Body>
           <Card.Title>Yellow Hibiscus</Card.Title>
           <a
             href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
