@@ -48,16 +48,16 @@ const MiddleMenu = () => (
         <Col xs={8} sm={12} md={6} className="mb-4">
           <Col xs={12} sm={12} md={12} className="mb-4">
             <h3>Jova&apos;s Contacts:</h3>
-            <a href="about" className="mx-2">
+            <a href="https://www.instagram.com/kindofanew.wav?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" className="mx-2">
               <Instagram width={30} height={30} />
             </a>
-            <a href="about" className="mx-2">
+            <a href="https://www.linkedin.com/in/jova%E2%80%99-kind-2a7996340/" className="mx-2">
               <Linkedin width={30} height={30} />
             </a>
-            <a href="about" className="mx-2">
+            <a href="https://github.com/jkind889" className="mx-2">
               <Github width={30} height={30} />
             </a>
-            <a href="about" className="mx-2">
+            <a href="https://www.reddit.com/user/RepresentativeBaby19/" className="mx-2">
               <Reddit width={30} height={30} />
             </a>
           </Col>

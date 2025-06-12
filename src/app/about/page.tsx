@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 const aboutme = () => (
   <Container className="text-start mt-5" id="aboutme fluid">
     <Col xs={12} className="">
-      <h1 className="head"> - About Us - </h1>
+      <h1 className="head"> -About Us - </h1>
       <p className="small-text">
         Lorem ipsum dolor sit amet,
         consectetur adipiscing elit,
