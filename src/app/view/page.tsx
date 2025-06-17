@@ -19,6 +19,9 @@ const View = () => (
             <Image src="/images/aespa.png" alt="IMG HERE" className="img-fluid mt-5" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -31,6 +34,9 @@ const View = () => (
             <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-4">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -43,6 +49,9 @@ const View = () => (
             <Image src="/images/bocchi.png" alt="IMG HERE" className="img-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -55,6 +64,9 @@ const View = () => (
             <Image src="/images/koifish.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -67,6 +79,9 @@ const View = () => (
             <Image src="/images/ssera.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -79,6 +94,9 @@ const View = () => (
             <Image src="/images/solov2-Recovered.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
@@ -91,6 +109,9 @@ const View = () => (
             <Image src="/images/kat.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+        </Card.Footer>
       </Card>
     </Container>
     <Container className="mt-5 view-header">
@@ -100,7 +121,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>White Lily</Card.Title>
-          <Image src="/images/derrickart/artportallily.png" alt="White Lily" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportallily.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportallily.png" alt="White Lily" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
@@ -109,7 +136,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>Green Carnation</Card.Title>
-          <Image src="/images/derrickart/artportalcarnation.png" alt="Green Carnation" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportalcarnation.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportalcarnation.png" alt="Green Carnation" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
@@ -118,7 +151,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>Halo Violet</Card.Title>
-          <Image src="/images/derrickart/artportalviolet.png" alt="Halo Violet" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportalviolet.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportalviolet.png" alt="Halo Violet" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
