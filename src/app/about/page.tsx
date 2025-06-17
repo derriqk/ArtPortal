@@ -60,7 +60,7 @@ const aboutme = () => (
           <strong>
             A:
           </strong>
-          You can contact us through our website's contact form or by emailing us at info@ybgncorp.com.
+          You can contact us through our website&apos;s contact form or by emailing us at info@ybgncorp.com.
           <br />
           <strong>
             Q:
