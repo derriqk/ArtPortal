@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { Col, Container, Row } from 'react-bootstrap';
 
 const aboutme = () => (
@@ -41,25 +42,58 @@ const aboutme = () => (
         <h2>FAQ</h2>
         <hr className="hr" />
         <p className="small-text">
-          <strong>Q:</strong> What is YBGCORP? 
+          <strong>
+            Q:
+          </strong>
+          What is YBGCORP?
           <br />
-          <strong>A:</strong> YBGCORP is a design company specializing in creating unique and innovative designs for various applications.
+          <strong>
+            A:
+          </strong>
+          YBGCORP is a design company specializing in creating unique and innovative designs for various applications.
           <br />
-          <strong>Q:</strong> How can I contact YBGCORP?<br />
-          <strong>A:</strong> You can contact us through our website's contact form or by emailing us at info@ybgncorp.com.
+          <strong>
+            Q:
+          </strong>
+          How can I contact YBGCORP?
           <br />
-          <strong>Q:</strong> What services does YBGCORP offer?<br />
-          <strong>A:</strong> We offer a wide range of design services including graphic design, web design, branding, and more.
+          <strong>
+            A:
+          </strong>
+          You can contact us through our website's contact form or by emailing us at info@ybgncorp.com.
           <br />
-          <strong>Q:</strong> Where is YBGCORP located?<br />
-          <strong>A:</strong> YBGCORP is located in the heart of the city, easily accessible for all our clients.
+          <strong>
+            Q:
+          </strong>
+          What services does YBGCORP offer?
           <br />
-          <strong>Q:</strong> Does YBGCORP offer custom design solutions?<br />
-          <strong>A:</strong> Yes, we specialize in custom design solutions tailored to meet the specific needs of our clients.
+          <strong>
+            A:
+          </strong>
+          We offer a wide range of design services including graphic design, web design, branding, and more.
+          <br />
+          <strong>
+            Q:
+          </strong>
+          Where is YBGCORP located?
+          <br />
+          <strong>
+            A:
+          </strong>
+          YBGCORP is located in the heart of the city, easily accessible for all our clients.
+          <br />
+          <strong>
+            Q:
+          </strong>
+          Does YBGCORP offer custom design solutions?
+          <br />
+          <strong>
+            A:
+          </strong>
+          Yes, we specialize in custom design solutions tailored to meet the specific needs of our clients.
         </p>
       </Col>
     </Row>
-
 
   </Container>
 );
