@@ -106,7 +106,7 @@ const View = () => (
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
-         <br />
+          <br />
           <small className="pt-3">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
