@@ -12,7 +12,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>&quot;Whiplash&quot;- Aespa</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/aespa.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>&quot;This is How Tomorrow Moves&quot;- Beabadoobee</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/beav2.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -36,7 +36,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/bocchi.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/koifish.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +60,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/ssera.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +72,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/solov2-Recovered.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -84,7 +84,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>TITLE HERE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/kat.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -128,7 +128,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Yellow Hibiscus</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalhibiscus.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -143,7 +143,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Cherry Blossoms</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalblossom.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -158,7 +158,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Nemophila Menziesii</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalblueflower.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -173,7 +173,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Single Rose</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalbigrose.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -188,7 +188,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Rose (Side View)</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalrose.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -203,7 +203,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Grumpy Cat</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalcat.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -218,7 +218,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Dead Tree</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportaltree.png"
             target="_blank"
             rel="noopener noreferrer"
           >
