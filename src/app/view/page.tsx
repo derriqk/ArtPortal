@@ -21,6 +21,8 @@ const View = () => (
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
@@ -34,13 +36,15 @@ const View = () => (
             <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
-        <Card.Footer className="pt-4">
+        <Card.Footer className="pt-2">
           Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Bocchi the Rock</Card.Title>
           <a
             href="/images/bocchi.png"
             target="_blank"
@@ -49,13 +53,15 @@ const View = () => (
             <Image src="/images/bocchi.png" alt="IMG HERE" className="img-fluid" />
           </a>
         </Card.Body>
-        <Card.Footer className="pt-5">
+        <Card.Footer className="pt-3">
           Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Koi Fish</Card.Title>
           <a
             href="/images/koifish.png"
             target="_blank"
@@ -64,13 +70,15 @@ const View = () => (
             <Image src="/images/koifish.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
-        <Card.Footer className="pt-5">
+        <Card.Footer className="pt-3">
           Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>&quot;HOT&quot; - LE SSERAFIM</Card.Title>
           <a
             href="/images/ssera.png"
             target="_blank"
@@ -79,13 +87,15 @@ const View = () => (
             <Image src="/images/ssera.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
-        <Card.Footer className="pt-5">
+        <Card.Footer className="pt-3">
           Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Solo Leveling</Card.Title>
           <a
             href="/images/solov2-Recovered.png"
             target="_blank"
@@ -96,11 +106,13 @@ const View = () => (
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
+         <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>&quot;Beautiful Chaos&quot; - KATSEYE</Card.Title>
           <a
             href="/images/kat.png"
             target="_blank"
@@ -111,6 +123,8 @@ const View = () => (
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
         </Card.Footer>
       </Card>
     </Container>
