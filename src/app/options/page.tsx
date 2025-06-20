@@ -40,7 +40,7 @@ const Options = () => (
           <Card>
             <Card.Body>
               <Card.Title>Simple Sketch</Card.Title>
-              <Image src="/" alt="Simple Sketch" className="img-fluid" />
+              <Image src="/images/optionsThumbnail/sketch.png" alt="Simple Sketch" className="img-fluid" />
             </Card.Body>
             <Card.Footer className="text-start">
               <small>2D Black & White or Rough Color</small>
@@ -132,7 +132,7 @@ const Options = () => (
           <Card>
             <Card.Body>
               <Card.Title>3D Model (No Mesh/Texture)</Card.Title>
-              <Image src="/" alt="3D Model" className="img-fluid" />
+              <Image src="/images/optionsThumbnail/treeUncolored.png" alt="3D Model" className="img-fluid" />
             </Card.Body>
             <Card.Footer className="text-start">
               <small>Pure 3D Online Model without details</small>
@@ -149,7 +149,7 @@ const Options = () => (
           <Card>
             <Card.Body>
               <Card.Title>3D Model (Complete)</Card.Title>
-              <Image src="/" alt="3D Model" className="img-fluid" />
+              <Image src="/images/optionsThumbnail/treeColored.png" alt="3D Model" className="img-fluid" />
             </Card.Body>
             <Card.Footer className="text-start">
               <small>Fully Rendered 3D Model</small>
