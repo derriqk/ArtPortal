@@ -12,85 +12,120 @@ const View = () => (
         <Card.Body>
           <Card.Title>&quot;Whiplash&quot;- Aespa</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/aespa.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/aespa.png" alt="IMG HERE" className="img-fluid mt-5" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
           <Card.Title>&quot;This is How Tomorrow Moves&quot;- Beabadoobee</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/beav2.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/beav2.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-2">
+          Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Bocchi the Rock</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/bocchi.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/bocchi.png" alt="IMG HERE" className="img-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-3">
+          Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Koi Fish</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/koifish.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/koifish.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-3">
+          Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>&quot;HOT&quot; - LE SSERAFIM</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/ssera.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/ssera.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-3">
+          Price: TBA
+          <br />
+          <small className="pt-1">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>Solo Leveling</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/solov2-Recovered.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/solov2-Recovered.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
       <Card className="owned">
         <Card.Body>
-          <Card.Title>TITLE HERE</Card.Title>
+          <Card.Title>&quot;Beautiful Chaos&quot; - KATSEYE</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/kat.png"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image src="/images/kat.png" alt="IMG HERE" className="img-fluid vertical-fluid" />
           </a>
         </Card.Body>
+        <Card.Footer className="pt-5">
+          Price: TBA
+          <br />
+          <small className="pt-3">Comes with a phone wallpaper as well! </small>
+        </Card.Footer>
       </Card>
     </Container>
     <Container className="mt-5 view-header">
@@ -100,7 +135,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>White Lily</Card.Title>
-          <Image src="/images/derrickart/artportallily.png" alt="White Lily" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportallily.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportallily.png" alt="White Lily" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
@@ -109,7 +150,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>Green Carnation</Card.Title>
-          <Image src="/images/derrickart/artportalcarnation.png" alt="Green Carnation" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportalcarnation.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportalcarnation.png" alt="Green Carnation" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
@@ -118,7 +165,13 @@ const View = () => (
       <Card className="owned">
         <Card.Body>
           <Card.Title>Halo Violet</Card.Title>
-          <Image src="/images/derrickart/artportalviolet.png" alt="Halo Violet" className="img-fluid" />
+          <a
+            href="/images/derrickart/artportalviolet.png"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image src="/images/derrickart/artportalviolet.png" alt="Halo Violet" className="img-fluid" />
+          </a>
         </Card.Body>
         <Card.Footer className="pt-5">
           Price: TBA
@@ -128,7 +181,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Yellow Hibiscus</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalhibiscus.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -143,7 +196,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Cherry Blossoms</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalblossom.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -158,7 +211,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Nemophila Menziesii</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalblueflower.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -173,7 +226,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Single Rose</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalbigrose.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -188,7 +241,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Rose (Side View)</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalrose.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -203,7 +256,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Grumpy Cat</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportalcat.png"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -218,7 +271,7 @@ const View = () => (
         <Card.Body>
           <Card.Title>Dead Tree</Card.Title>
           <a
-            href="https://www.youtube.com/watch?v=NFAaeGO0WFo&list=RDMM&index=3"
+            href="/images/derrickart/artportaltree.png"
             target="_blank"
             rel="noopener noreferrer"
           >
